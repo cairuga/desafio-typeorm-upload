@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getCustomRepository, getRepository } from 'typeorm';
+import { getCustomRepository } from 'typeorm';
 import multer from 'multer';
 import uploadConfig from '../config/upload';
 
